@@ -1,14 +1,3 @@
-/*
-SunnyYeahBoi
-It's My Time To Shine Bois
-*/
-#include "bits/stdc++.h"
-
-using namespace std;
-
-#define int long long
-#define endl "\n"
-
 int pow_mod(int a, int b , int MOD){
 	if(b <= 0) return 1;
 	if(b == 1) return a;
@@ -52,17 +41,3 @@ bool Prime_Check(int x){
 
 	return true;
 }
-
-void solve(){
-
-}
-
-signed main(){
-    // freopen("a.inp" , "r" , stdin);
-    // freopen("a.out" , "w" , stdout);
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);cout.tie(NULL);
-	int t; cin >> t; while(t--)solve();
-	return 0;
-}
-
