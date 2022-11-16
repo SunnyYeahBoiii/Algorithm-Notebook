@@ -1,4 +1,4 @@
-truct PalindromeTree{
+struct PalindromeTree{
     static const int MAXNODE = 1000010;
     string s;
 
